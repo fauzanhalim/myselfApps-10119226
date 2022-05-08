@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Nur Fauzan Halim</string>
+
+    <!--fragment home, fragment profile-->
+    <string name="welcome">Welcome!</string>
+    <string name="namahead">Nur Fauzan H</string>
+    <string name="nimhead">10119226</string>
+    <string name="title_aboutme">About Me</string>
+    <string name="title_contactme">Contact Me</string>
+    <string name="phone">+6285317077634</string>
+    <string name="about">About Application</string>
+    <string name="aboutme">Hi, I am a programmer \nbut prefer to be called a village programmer because I was born in a simple village located in West Java, Indonesia. For Now, I am interested in the world of technology that is in trend and has its own uniqueness. On the other hand, \nI am also interested in digital business \nand some other.</string>
+    <string name="namalengkap">Nama : Nur Fauzan Halim</string>
+    <string name="nim">NIM : 10119226</string>
+    <string name="kelas">Kelas : IF-6</string>
+    <string name="jeniskelamin">Jenis Kelamin : Laki-laki</string>
+    <string name="ttl">TTL : Bekasi, 20 Desember 2022</string>
+    <string name="hobi">Hobi : Travelling</string>
+    <string name="makananfavorit">"Makanan Favorit : Sate "</string>
+    <string name="minumanfavorit">Minuman Favorit : Jus Alpukat</string>
+    <string name="lagufavorit">Lagu Favorit : To The Bone-Pamungkas</string>
+    <string name="filmfavorit">Film Favorit : Mission Imposible</string>
+    <string name="citacita">Cita-cita : Engineer BUMN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alamat">Alamat : Jln. Teluk Garut Rt.06/Rw.02 Kec.CabangBungin Kab.Bekasi Jawa Barat</string>
+
+</resources>

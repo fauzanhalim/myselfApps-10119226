@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="1dp"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_music"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/whiteColor" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:text="Title"
+            android:textSize="14sp"
+            android:textColor="@color/blackColor"
+            android:fontFamily="@font/nunito_bold"
+            android:layout_toRightOf="@+id/iv_music" />
+        <TextView
+            android:id="@+id/tv_penyanyi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Penyanyi"
+            android:textSize="12sp"
+            android:textColor="@color/greyColor"
+            android:fontFamily="@font/rubik_regular"
+            android:layout_toRightOf="@+id/iv_music"
+            android:layout_below="@+id/tv_title" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

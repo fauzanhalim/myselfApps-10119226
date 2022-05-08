@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.nurfauzanhalim.Fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_centerVertical="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/welcome"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/rubik_regular" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namahead"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/nunito_bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_pink"
+                    android:fontFamily="@font/nunito_bold"
+                    android:padding="3dp"
+                    android:text="@string/nimhead"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="2">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/david"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="right"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/whiteColor" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/card_background"
+        android:elevation="36dp">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="42dp"
+                android:layout_marginRight="42dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/title_aboutme"
+                    android:textColor="@color/blackColor"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/nunito_bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/aboutme"
+                    android:textColor="@color/greyColor"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/nunito_bold" />
+                <View
+                    android:layout_width="200dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/greyColor" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="15dp"
+                    android:text="@string/namalengkap"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="15dp"
+                    android:text="@string/nim"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="15dp"
+                    android:text="@string/kelas"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="15dp"
+                    android:text="@string/jeniskelamin"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="15dp"
+                    android:text="@string/ttl"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="15dp"
+                    android:text="@string/hobi"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="15dp"
+                    android:text="@string/makananfavorit"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="15dp"
+                    android:text="@string/minumanfavorit"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="15dp"
+                    android:text="@string/lagufavorit"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="15dp"
+                    android:text="@string/filmfavorit"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="15dp"
+                    android:text="@string/citacita"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="15dp"
+                    android:text="@string/alamat"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="14sp"
+                    android:background="@drawable/bg_blue2" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+</LinearLayout>
