@@ -1,11 +1,11 @@
 package com.example.nurfauzanhalim.Model;
 
 /*
-    Dikerjakan pada tanggal : 19 Mei 2021
-    Dibuat oleh :
-    NIM   : 10118071
-    Nama  : David Aditya Winarto
-    Kelas : IF-2
+     Dikerjakan pada tanggal : 5 mei 2022
+    Dibuat oleh : Nur Fauzan Halim
+    NIM   : 10119226
+    Nama  : Nur Fauzan Halim
+    Kelas : IF-6
 */
 
 public class WalkthroughModel {

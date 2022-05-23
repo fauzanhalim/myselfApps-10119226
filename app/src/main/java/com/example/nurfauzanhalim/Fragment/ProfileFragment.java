@@ -120,7 +120,7 @@ public class ProfileFragment extends Fragment {
                 Intent tw = new Intent();
                 tw.setAction(Intent.ACTION_VIEW);
                 tw.addCategory(Intent.CATEGORY_BROWSABLE);
-                tw.setData(Uri.parse("https://twitter.com/davidaditya_w"));
+                tw.setData(Uri.parse("https://twitter.com/fauzanhalim"));
                 startActivity(tw);
             }
         });
@@ -156,7 +156,7 @@ public class ProfileFragment extends Fragment {
                 Intent map = new Intent();
                 map.setAction(Intent.ACTION_VIEW);
                 map.addCategory(Intent.CATEGORY_BROWSABLE);
-                map.setData(Uri.parse("https://goo.gl/maps/Bqme47ogyzgimCoC6"));
+                map.setData(Uri.parse("https://goo.gl/maps/fT9XmYe7RpSWjGQC6"));
                 startActivity(map);
             }
         });
